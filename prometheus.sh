@@ -8,7 +8,7 @@ sudo mv prometheus promtool /usr/local/bin/
 sudo mv consoles/ console_libraries/ /etc/prometheus/
 sudo chown -R prometheus:prometheus /etc/prometheus/ /data/
 cd
-rm -rf prometheus-2.47.1.linux-amd64.tar.gz
+rm -rf prometheus-2.53.0.linux-amd64.tar.gz
 # Define the content of the Prometheus systemd unit file
 SERVICE_FILE_CONTENT="[Unit]
 Description=Prometheus
