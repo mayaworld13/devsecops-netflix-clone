@@ -6,6 +6,7 @@ sudo mkdir -p /data /etc/prometheus
 cd prometheus-2.53.0.linux-amd64
 sudo mv prometheus promtool /usr/local/bin/
 sudo mv consoles/ console_libraries/ /etc/prometheus/
+sudo mv prometheus.yml /etc/prometheus/prometheus.yml
 sudo chown -R prometheus:prometheus /etc/prometheus/ /data/
 cd
 rm -rf prometheus-2.53.0.linux-amd64.tar.gz
